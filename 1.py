@@ -22,10 +22,10 @@ ants_dataset=MyData(root_dir,ants_label_dir)'''
 
 
 # tensorboard实战
-import torch
+'''import torch
 import torchvision.datasets
 
-'''from torch.utils.tensorboard import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 writer=SummaryWriter("logs")
 from PIL import Image
 import numpy as np
